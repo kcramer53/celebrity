@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Car insurance</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Crush</h1>
+
+      <p>Choose your fighter:</p>
+
+      <form id="Celebrity Selection Criteria">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Calculate my Celebrity Crush</button>
+      </form>
+
+      <div id="Celebrity">
+        <p>If you are compatible the survey will let you know who your Celebrity Crush can be!.</p>
+
+        <div class="form-group">
+          <label for="celebrity">Who is your favorite Celebrity?</label>
+          <select class="form-control" id="beverage">
+
+            <option value="Ryan Gosling">Ryan Gosling</option>
+            <option value="Woody Harrelson">Woody Harrelson</option>
+            <option value="Kathy Bate">Kathy Bates</option>
+            <option value="Jamie Clayton">Jamie Clayton</option>
+          </select>
+        </div>
+        <br>
+
+        <!-- First question COLOR -->
+
+        <label for="color">What color do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="green" checked>
+            Green
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="red">
+            Red
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="blue">
+            Blue
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="color" value="purple">
+            Purple
+          </label>
+        </div>
+        <br>
+
+        <!-- Second question FOOD -->
+
+        <label for="food">What food do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="sushi" checked>
+            Sushi
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="pizza">
+            Pizza
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="cheeseburger">
+            Cheeseburger
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="food" value="fried-chicken">
+            Fried Chicken
+          </label>
+        </div>
+        <br>
+
+        <!-- Third question MOVIE OR TV SHOW -->
+
+        <label for="movie-tv">What movie or tv show do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie-tv" value="notebook" checked>
+            The Notebook
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie-tv" value="cheers">
+            Cheers
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie-tv" value="misery">
+            Misery
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie-tv" value="sense8">
+            Sense8
+          </label>
+        </div>
+        <br>
+
+        <!-- Fourth question VACATION -->
+
+        <label for="vacation">What vacation destination do you prefer?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="vacation" value="bali" checked>
+            Bali
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="vacation" value="mexico">
+            Mexico
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="vacation" value="switzerland">
+            Switzerland
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="vacation" value="tahiti">
+            Tahiti
+          </label>
+        </div>
+        <br>
+
+        <div class="button">
+          <button class="btn btn-success" id="button1">Submit</button>
+        </div>
+        </form>
+      </div>
+      <div id="match">
+        <h1>Ryan Gosling</h1>
+        <h1>Woody Harrelson</h1>
+        <h1>Kathy Bates</h1>
+        <h1>Jamie Clayton</h1>
+      </div>
+    </div>
+  </body>
+</html>
