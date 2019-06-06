@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Car insurance</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Celebrity Crush</h1>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity match</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Celebrity Crush</h1>
 
-      <p>Choose your fighter:</p>
 
-      <form id="Celebrity Selection Criteria">
-        <label for="age">Age</label>
-        <input id="age" type="text">
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </select>
+    <form id="Celebrity Selection Criteria">
+      <label for="age">Age</label>
+      <input id="age" type="text">
+      <label for="gender">Gender</label>
+      <select id="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select>
 
-        <button type="submit" class="btn">Calculate my Celebrity Crush</button>
-      </form>
+      <!-- <button type="submit" class="btn">Calculate my Celebrity Crush</button> -->
+      <!-- </form> -->
 
       <div id="Celebrity">
         <p>If you are compatible the survey will let you know who your Celebrity Crush can be!.</p>
+        <p>Choose your fighter:</p>
 
         <div class="form-group">
           <label for="celebrity">Who is your favorite Celebrity?</label>
-          <select class="form-control" id="beverage">
+          <select class="form-control" id="celebrity">
 
             <option value="Ryan Gosling">Ryan Gosling</option>
             <option value="Woody Harrelson">Woody Harrelson</option>
@@ -159,14 +159,15 @@
         <div class="button">
           <button class="btn btn-success" id="button1">Submit</button>
         </div>
-        </form>
-      </div>
-      <div id="match">
-        <h1>Ryan Gosling</h1>
-        <h1>Woody Harrelson</h1>
-        <h1>Kathy Bates</h1>
-        <h1>Jamie Clayton</h1>
-      </div>
+      </form>
     </div>
-  </body>
+    <div>
+      <h1 id="ryan">Ryan Gosling</h1>
+      <h1 id="woody">Woody Harrelson</h1>
+      <h1 id="kathy">Kathy Bates</h1>
+      <h1 id="jamie">Jamie Clayton</h1>
+      <h1 id="no-match">You didn't match with any celebrity. :(</h1>
+    </div>
+  </div>
+</body>
 </html>
